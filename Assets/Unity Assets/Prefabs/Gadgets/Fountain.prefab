@@ -10,8 +10,9 @@ GameObject:
   - 4: {fileID: 400000}
   - 23: {fileID: 2300000}
   - 33: {fileID: 3300000}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400008}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Fountain
   m_TagString: Platform
@@ -59,7 +60,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.37405014, y: -2.25127602, z: -6.40405273}
+  m_LocalPosition: {x: -12.3074379, y: -43.2885437, z: -33.7879372}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400006}
@@ -102,7 +103,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 5c849ab7f14e9604c90fc71e80f947bc, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -149,13 +150,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d43d5f7dc7fc394c8967a52fe80e3da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17996eec3f76efd42a6a2a35c8b6341c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TouchCollider: {fileID: 6500000}
   PlatformImplementation: {fileID: 100002}
   ReturnPoof: {fileID: 100000, guid: 13caaf6356a32b641bf5b72609ed5436, type: 2}
---- !u!114 &11400002
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 334c33453ff1c8e48b2e22e8c062700b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -163,7 +175,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e0e0c37ef9d7b34292486e754b48bd5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   collection: {fileID: 11400000, guid: f720f4f164e1fb14b92dbb716dd8c189, type: 2}
@@ -178,22 +190,20 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
-  _animator: {fileID: 0}
-  anim: {fileID: 11400000, guid: 9192d99802411c141917b70128ca4792, type: 2}
-  clipId: 1
-  playAutomatically: 1
-  createCollider: 0
---- !u!114 &11400004
+--- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
+  m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 334c33453ff1c8e48b2e22e8c062700b, type: 3}
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  library: {fileID: 11400000, guid: 18a39674a9b14f54b97497254e83b349, type: 2}
+  defaultClipId: 0
+  playAutomatically: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

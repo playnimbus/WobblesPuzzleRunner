@@ -13,6 +13,7 @@ GameObject:
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400008}
   - 114: {fileID: 11400010}
+  - 114: {fileID: 11400000}
   m_Layer: 10
   m_Name: OilSpill
   m_TagString: Platform
@@ -142,6 +143,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.30999994, y: .449999988, z: 1}
   m_Center: {x: 0, y: 0, z: -0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17996eec3f76efd42a6a2a35c8b6341c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TouchCollider: {fileID: 6500002}
+  PlatformImplementation: {fileID: 100004}
+  ReturnPoof: {fileID: 100000, guid: 13caaf6356a32b641bf5b72609ed5436, type: 2}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
