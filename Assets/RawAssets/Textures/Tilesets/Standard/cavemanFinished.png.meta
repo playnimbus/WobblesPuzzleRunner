@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 0a4b6fc2cf2334547a89218a66c5f8cb
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cavemanFinished_0
+    21300002: cavemanFinished_1
+    21300004: cavemanFinished_2
+    21300006: cavemanFinished_3
+    21300008: cavemanFinished_4
+    21300010: cavemanFinished_5
+    21300012: cavemanFinished_6
+    21300014: cavemanFinished_7
+    21300016: cavemanFinished_8
+    21300018: cavemanFinished_9
+    21300020: cavemanFinished_10
+    21300022: cavemanFinished_11
+    21300024: cavemanFinished_12
+    21300026: cavemanFinished_13
+    21300028: cavemanFinished_14
+    21300030: cavemanFinished_15
+    21300032: cavemanFinished_16
+    21300034: cavemanFinished_17
+    21300036: cavemanFinished_18
+    21300038: cavemanFinished_19
+    21300040: cavemanFinished_20
+    21300042: cavemanFinished_21
+    21300044: cavemanFinished_22
+    21300046: cavemanFinished_23
+    21300048: cavemanFinished_24
+    21300050: cavemanFinished_25
+    21300052: cavemanFinished_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cavemanFinished_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_6
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 232
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_12
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_13
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 155
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 78
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 78
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_16
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 78
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 78
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 78
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 78
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_25
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavemanFinished_26
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1
+        width: 77
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
