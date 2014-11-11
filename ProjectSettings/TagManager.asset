@@ -6,13 +6,15 @@ TagManager:
   - Chunk
   - Wobble
   - Platform
-  - 
+  - ChunkEnd
   - Star
   - Death
   - 
   - FxTemporaire
   - HeadGear
   - Pickup
+  - 
+  - Battery
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

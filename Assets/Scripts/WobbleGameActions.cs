@@ -67,7 +67,7 @@ public class WobbleGameActions : MonoBehaviour
             {
                 scoreKeeper.addSpeedMult(1);
             //    wobbleMovement.wobbleConstantForce.relativeForce += new Vector3(50, 0, 0);
-                Time.timeScale += 0.2f;
+            //    Time.timeScale += 0.2f;
                 GameObject.Destroy(other.gameObject);
 
                 GameObject aura = (GameObject)Instantiate(SpeedAura, transform.position - new Vector3(0,0.75f,0), SpeedAura.transform.rotation);
@@ -93,6 +93,12 @@ public class WobbleGameActions : MonoBehaviour
             DeathWithHelmet();
             return;
         }
+
+        if (other.gameObject.CompareTag("ChunkEnd"))
+        {
+            Camera.main.GetComponent<CameraFollow>().PanToNextChunk();
+        }
+
         // Score the wobble when they hit home
         /*
         if (other.gameObject.CompareTag("Home"))
